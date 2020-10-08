@@ -1,5 +1,5 @@
-//Name: 
-//Date: 
+//Name: TD
+//Date: 10/8/2020
 
 public class Main
 {
@@ -12,15 +12,19 @@ public class Main
 		System.out.println( d.getDogYears( 11 ) );  //will output 33
  		System.out.println( d.getName() );	  //will output rover
  		d.increaseAgeByOne();
-// 		d.increaseAgeByOne();
-// 		d.increaseAgeByOne();
-// 		d.increaseAgeByOne();    //age should be 7 after this call
-// 		System.out.println( d.getDogYears( 8 ) );  //will output 56
+		d.increaseAgeByOne();
+		d.increaseAgeByOne();
+		d.increaseAgeByOne();    //age should be 7 after this call
+		System.out.println( d.getDogYears( 8 ) );  //will output 56
 
 //		Add more of your own test cases
-// 		Dog g = new Dog( "bob", 3 );
-// 		System.out.println( g.getName() );
-// 		System.out.println( g.getDogYears( 5 ) );
+		Dog g = new Dog( "bob", 3 );
+		System.out.println( g.getName() );
+		System.out.println( g.getDogYears( 5 ) );
+
+    Dog t = new Dog("Toby", 2);
+    System.out.println(t.getName());
+    System.out.println(t.getDogYears(10));
 		
 	}
 }
